@@ -1,5 +1,8 @@
 # AstroPi Hackathon Notebok
 
+* [Official web](https://astro-pi.org/)
+* [Brno 2024 web](https://astropi-hackathon.org/aktualni-rocnik/brno/)
+
 ## Mission Zero
 
 [Emulator](https://missions.astro-pi.org/mz/code_submissions/new)
@@ -49,3 +52,12 @@ for i in range(10):
     sense.set_pixels(image[::orientation])
     sleep(0.5)
 ```
+
+## Mission Space Lab
+
+* [Landing page](https://astro-pi.org/mission-space-lab/)
+* [Guide](https://projects.raspberrypi.org/en/projects/mission-space-lab-creator-guide/0)
+
+### Example
+
+* [space-lab.py](space-lab.py)
