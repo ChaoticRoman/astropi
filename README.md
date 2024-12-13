@@ -14,6 +14,8 @@
 * [Guide](https://projects.raspberrypi.org/en/projects/mission-space-lab-creator-guide/0)
 * [ZIP archive with photos](https://rpf.io/p/en/astropi-iss-speed-go)
 * [Modified ZIP archive with photos](https://drive.google.com/file/d/1pv7tAn_kPTfYGRzqExCxfCrClGVYBuWZ/view?usp=drive_link)
+* [GSD calculator](https://www.3dflow.net/ground-sampling-distance-calculator/)
+* [My GSD values](gsd.png)
 
 ### Example
 

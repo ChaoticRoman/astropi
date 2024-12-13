@@ -98,9 +98,11 @@ matches = calculate_matches(descriptors_1, descriptors_2) # Match descriptors
 
 coordinates_1, coordinates_2 = find_matching_coordinates(keypoints_1, keypoints_2, matches)
 average_feature_distance = calculate_mean_distance(coordinates_1, coordinates_2)
-speed = calculate_speed_in_kmps(average_feature_distance, 12648, time_difference)
+
+GSD = 12648
+GSD = 10648
+speed = calculate_speed_in_kmps(average_feature_distance, GSD, time_difference)
 
 print(speed)
-
 plt.hist(get_distances(coordinates_1, coordinates_2), bins=64)
 plt.show()
